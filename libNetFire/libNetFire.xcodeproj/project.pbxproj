@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4752AF16CBE0FA008763F7 /* NetFire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F4752AD16CBE0FA008763F7 /* NetFire.cpp */; };
+		0F4752B016CBE0FA008763F7 /* NetFire.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4752AE16CBE0FA008763F7 /* NetFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F4752B416CBE4E1008763F7 /* ConcreteServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F4752B216CBE4E1008763F7 /* ConcreteServer.cpp */; };
+		0F4752B516CBE4E1008763F7 /* ConcreteServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4752B316CBE4E1008763F7 /* ConcreteServer.h */; };
+		0F4752B816CBE60A008763F7 /* ConcreteClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F4752B616CBE60A008763F7 /* ConcreteClient.cpp */; };
+		0F4752B916CBE60A008763F7 /* ConcreteClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4752B716CBE60A008763F7 /* ConcreteClient.h */; };
+		0F4752BF16CD7459008763F7 /* ConcreteRunloop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F4752BD16CD7459008763F7 /* ConcreteRunloop.cpp */; };
+		0F4752C016CD7459008763F7 /* ConcreteRunloop.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4752BE16CD7459008763F7 /* ConcreteRunloop.h */; };
+		0F4752C316CD7462008763F7 /* ConcreteInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F4752C116CD7462008763F7 /* ConcreteInputStream.cpp */; };
+		0F4752C416CD7462008763F7 /* ConcreteInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4752C216CD7462008763F7 /* ConcreteInputStream.h */; };
+		0F4752C716CD746D008763F7 /* ConcreteOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F4752C516CD746D008763F7 /* ConcreteOutputStream.cpp */; };
+		0F4752C816CD746D008763F7 /* ConcreteOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4752C616CD746D008763F7 /* ConcreteOutputStream.h */; };
+		0FB256F816D8AF15001A14E1 /* URL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FB256F616D8AF15001A14E1 /* URL.cpp */; };
+		0FB256FB16D931E3001A14E1 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FB256FA16D931E3001A14E1 /* Socket.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4752A416CBE0AB008763F7 /* liblibNetFire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibNetFire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4752AD16CBE0FA008763F7 /* NetFire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetFire.cpp; sourceTree = "<group>"; };
+		0F4752AE16CBE0FA008763F7 /* NetFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetFire.h; sourceTree = "<group>"; };
+		0F4752B216CBE4E1008763F7 /* ConcreteServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteServer.cpp; sourceTree = "<group>"; };
+		0F4752B316CBE4E1008763F7 /* ConcreteServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteServer.h; sourceTree = "<group>"; };
+		0F4752B616CBE60A008763F7 /* ConcreteClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteClient.cpp; sourceTree = "<group>"; };
+		0F4752B716CBE60A008763F7 /* ConcreteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteClient.h; sourceTree = "<group>"; };
+		0F4752BD16CD7459008763F7 /* ConcreteRunloop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteRunloop.cpp; sourceTree = "<group>"; };
+		0F4752BE16CD7459008763F7 /* ConcreteRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteRunloop.h; sourceTree = "<group>"; };
+		0F4752C116CD7462008763F7 /* ConcreteInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteInputStream.cpp; sourceTree = "<group>"; };
+		0F4752C216CD7462008763F7 /* ConcreteInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteInputStream.h; sourceTree = "<group>"; };
+		0F4752C516CD746D008763F7 /* ConcreteOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteOutputStream.cpp; sourceTree = "<group>"; };
+		0F4752C616CD746D008763F7 /* ConcreteOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteOutputStream.h; sourceTree = "<group>"; };
+		0FB256F616D8AF15001A14E1 /* URL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = URL.cpp; sourceTree = "<group>"; };
+		0FB256FA16D931E3001A14E1 /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F4752A116CBE0AB008763F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F47529916CBE0AB008763F7 = {
+			isa = PBXGroup;
+			children = (
+				0F4752A516CBE0AB008763F7 /* Products */,
+				0F4752AD16CBE0FA008763F7 /* NetFire.cpp */,
+				0F4752AE16CBE0FA008763F7 /* NetFire.h */,
+				0FB256FA16D931E3001A14E1 /* Socket.cpp */,
+				0FB256F616D8AF15001A14E1 /* URL.cpp */,
+				0F4752BD16CD7459008763F7 /* ConcreteRunloop.cpp */,
+				0F4752BE16CD7459008763F7 /* ConcreteRunloop.h */,
+				0F4752C116CD7462008763F7 /* ConcreteInputStream.cpp */,
+				0F4752C216CD7462008763F7 /* ConcreteInputStream.h */,
+				0F4752C516CD746D008763F7 /* ConcreteOutputStream.cpp */,
+				0F4752C616CD746D008763F7 /* ConcreteOutputStream.h */,
+				0F4752B216CBE4E1008763F7 /* ConcreteServer.cpp */,
+				0F4752B316CBE4E1008763F7 /* ConcreteServer.h */,
+				0F4752B616CBE60A008763F7 /* ConcreteClient.cpp */,
+				0F4752B716CBE60A008763F7 /* ConcreteClient.h */,
+			);
+			sourceTree = "<group>";
+		};
+		0F4752A516CBE0AB008763F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F4752A416CBE0AB008763F7 /* liblibNetFire.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F4752A216CBE0AB008763F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4752B016CBE0FA008763F7 /* NetFire.h in Headers */,
+				0F4752B516CBE4E1008763F7 /* ConcreteServer.h in Headers */,
+				0F4752B916CBE60A008763F7 /* ConcreteClient.h in Headers */,
+				0F4752C016CD7459008763F7 /* ConcreteRunloop.h in Headers */,
+				0F4752C416CD7462008763F7 /* ConcreteInputStream.h in Headers */,
+				0F4752C816CD746D008763F7 /* ConcreteOutputStream.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F4752A316CBE0AB008763F7 /* libNetFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4752A816CBE0AB008763F7 /* Build configuration list for PBXNativeTarget "libNetFire" */;
+			buildPhases = (
+				0F4752A016CBE0AB008763F7 /* Sources */,
+				0F4752A116CBE0AB008763F7 /* Frameworks */,
+				0F4752A216CBE0AB008763F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libNetFire;
+			productName = libNetFire;
+			productReference = 0F4752A416CBE0AB008763F7 /* liblibNetFire.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F47529B16CBE0AB008763F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Patrick Horlebein";
+			};
+			buildConfigurationList = 0F47529E16CBE0AB008763F7 /* Build configuration list for PBXProject "libNetFire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F47529916CBE0AB008763F7;
+			productRefGroup = 0F4752A516CBE0AB008763F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F4752A316CBE0AB008763F7 /* libNetFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4752A016CBE0AB008763F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4752AF16CBE0FA008763F7 /* NetFire.cpp in Sources */,
+				0F4752B416CBE4E1008763F7 /* ConcreteServer.cpp in Sources */,
+				0F4752B816CBE60A008763F7 /* ConcreteClient.cpp in Sources */,
+				0F4752BF16CD7459008763F7 /* ConcreteRunloop.cpp in Sources */,
+				0F4752C316CD7462008763F7 /* ConcreteInputStream.cpp in Sources */,
+				0F4752C716CD746D008763F7 /* ConcreteOutputStream.cpp in Sources */,
+				0FB256F816D8AF15001A14E1 /* URL.cpp in Sources */,
+				0FB256FB16D931E3001A14E1 /* Socket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F4752A616CBE0AB008763F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F4752A716CBE0AB008763F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F4752A916CBE0AB008763F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F4752AA16CBE0AB008763F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F47529E16CBE0AB008763F7 /* Build configuration list for PBXProject "libNetFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4752A616CBE0AB008763F7 /* Debug */,
+				0F4752A716CBE0AB008763F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4752A816CBE0AB008763F7 /* Build configuration list for PBXNativeTarget "libNetFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4752A916CBE0AB008763F7 /* Debug */,
+				0F4752AA16CBE0AB008763F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F47529B16CBE0AB008763F7 /* Project object */;
+}

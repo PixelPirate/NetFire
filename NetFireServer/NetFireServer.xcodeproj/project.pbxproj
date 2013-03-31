@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F47527616CBDFC5008763F7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F47527516CBDFC5008763F7 /* main.cpp */; };
+		0F47527816CBDFC5008763F7 /* NetFireServer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F47527716CBDFC5008763F7 /* NetFireServer.1 */; };
+		0F4752BB16CBE7C9008763F7 /* liblibNetFire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4752BA16CBE7C9008763F7 /* liblibNetFire.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F47526F16CBDFC5008763F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0F47527816CBDFC5008763F7 /* NetFireServer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F47527116CBDFC5008763F7 /* NetFireServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NetFireServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F47527516CBDFC5008763F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0F47527716CBDFC5008763F7 /* NetFireServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NetFireServer.1; sourceTree = "<group>"; };
+		0F4752BA16CBE7C9008763F7 /* liblibNetFire.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibNetFire.a; path = ../DerivedData/NetFire/Build/Products/Debug/liblibNetFire.a; sourceTree = "<group>"; };
+		0F4752BC16CBE7D1008763F7 /* NetFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = NetFire.h; path = ../libNetFire/NetFire.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F47526E16CBDFC5008763F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4752BB16CBE7C9008763F7 /* liblibNetFire.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F47526616CBDFC5008763F7 = {
+			isa = PBXGroup;
+			children = (
+				0F4752BA16CBE7C9008763F7 /* liblibNetFire.a */,
+				0F4752BC16CBE7D1008763F7 /* NetFire.h */,
+				0F47527416CBDFC5008763F7 /* NetFireServer */,
+				0F47527216CBDFC5008763F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F47527216CBDFC5008763F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F47527116CBDFC5008763F7 /* NetFireServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F47527416CBDFC5008763F7 /* NetFireServer */ = {
+			isa = PBXGroup;
+			children = (
+				0F47527516CBDFC5008763F7 /* main.cpp */,
+				0F47527716CBDFC5008763F7 /* NetFireServer.1 */,
+			);
+			path = NetFireServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F47527016CBDFC5008763F7 /* NetFireServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F47527B16CBDFC5008763F7 /* Build configuration list for PBXNativeTarget "NetFireServer" */;
+			buildPhases = (
+				0F47526D16CBDFC5008763F7 /* Sources */,
+				0F47526E16CBDFC5008763F7 /* Frameworks */,
+				0F47526F16CBDFC5008763F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetFireServer;
+			productName = NetFireServer;
+			productReference = 0F47527116CBDFC5008763F7 /* NetFireServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F47526816CBDFC5008763F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Patrick Horlebein";
+			};
+			buildConfigurationList = 0F47526B16CBDFC5008763F7 /* Build configuration list for PBXProject "NetFireServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F47526616CBDFC5008763F7;
+			productRefGroup = 0F47527216CBDFC5008763F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F47527016CBDFC5008763F7 /* NetFireServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F47526D16CBDFC5008763F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F47527616CBDFC5008763F7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F47527916CBDFC5008763F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F47527A16CBDFC5008763F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F47527C16CBDFC5008763F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../DerivedData/NetFire/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F47527D16CBDFC5008763F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../DerivedData/NetFire/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F47526B16CBDFC5008763F7 /* Build configuration list for PBXProject "NetFireServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F47527916CBDFC5008763F7 /* Debug */,
+				0F47527A16CBDFC5008763F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F47527B16CBDFC5008763F7 /* Build configuration list for PBXNativeTarget "NetFireServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F47527C16CBDFC5008763F7 /* Debug */,
+				0F47527D16CBDFC5008763F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F47526816CBDFC5008763F7 /* Project object */;
+}

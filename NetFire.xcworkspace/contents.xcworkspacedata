@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:libNetFire/libNetFire.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetFireClient/NetFireClient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetFireServer/NetFireServer.xcodeproj">
+   </FileRef>
+</Workspace>
